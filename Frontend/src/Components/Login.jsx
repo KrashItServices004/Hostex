@@ -25,7 +25,7 @@ const App = () => {
   const CreateAccount = async () => {
     if (createName && createEmail && createPassword && createConPassword) {
       if (createConPassword === createPassword) {
-        let url = `http://localhost:5000/user/createAccount`
+        let url = `https://hostex-backend.onrender.com/user/createAccount`
         try {
           const response = await fetch(url, {
             method: "POST",
@@ -69,7 +69,7 @@ const App = () => {
   const Login = async () => {
     if (email && password) {
 
-      let url = `http://localhost:5000/user/login`
+      let url = `https://hostex-backend.onrender.com/user/login`
       try {
         const response = await fetch(url, {
           method: "POST",
@@ -108,7 +108,7 @@ const App = () => {
   const ForgotPassword = async () => {
     if (email && createPassword && createConPassword) {
       if (createConPassword === createPassword) {
-        let url = `http://localhost:5000/user/ForgotPassword`
+        let url = `https://hostex-backend.onrender.com/user/ForgotPassword`
         try {
           const response = await fetch(url, {
             method: "POST",
