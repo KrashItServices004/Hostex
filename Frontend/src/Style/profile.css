@@ -1,0 +1,28 @@
+.header_profile {
+    margin: 0;
+    background-color:white;
+    color: black;
+    padding: 10px;
+    font-family: orbitron;
+    border-bottom: 1px solid #00000036;
+    border-top: 1px solid #00000036;
+}
+
+.left_div{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.m-20{
+    margin-left:0px ;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .m-20{
+        margin-left:20px;
+    }
+  }
+  

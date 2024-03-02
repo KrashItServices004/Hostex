@@ -1,0 +1,82 @@
+/* Base styles for all screen sizes */
+.shared-hosting-container,
+.video-slider-container {
+ padding-left: 20px;
+ padding-right: 20px;
+  background-color: #f7f7f7;
+  color: #000000;
+}
+
+.shared-hosting-container,
+.video-slider-container,
+.shared-container h1,
+.shared-container h2,
+.shared-container p {
+  text-align: left;
+}
+.shared-container p {
+  font-size: 20px;
+}
+
+.shared-container h1{
+  color: #2aba09;
+}
+
+.custom-button {
+  display: inline-block;
+  padding: 10px 25px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #202736;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #f8f5f3;
+  color: #000000;
+}
+
+.content-left {
+  text-align: left;
+}
+
+.custom-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Media queries for different screen sizes */
+@media only screen and (min-width: 480px) {
+  /* Small screens */
+  .custom-image {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* Medium screens */
+  .custom-image {
+    width: 70%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* Large screens */
+  .custom-image {
+    width: 60%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* Extra large screens */
+  .custom-image {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  /* Extra, extra large screens */
+  .custom-image {
+    width: 40%;
+  }
+}
